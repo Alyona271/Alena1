@@ -1,0 +1,236 @@
+body{
+
+	background-color: #CFA775;
+	background-image: url(картинки/фон.jpg);
+}
+
+.body{
+	
+	margin: 10px 7vw;
+	min-width: 100px;
+	background: rgba(207, 167, 117, 0.93);
+	border-radius: 10px;
+}
+
+header{
+	width: 100%;
+	height: 250px;
+	background: rgba(207, 167, 117, 0.1);
+	border-radius: 10px;
+}
+
+.logo_img{
+	width: 450px;
+	height: auto;}
+	
+.ly {
+	position: absolute;
+	width: 370px;
+	height: 50px;
+	left: 735px;
+	top: 80px;
+	padding: 0 0 0 20px ;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	font-family: Prataa;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	opacity: 0.7;
+}
+
+.ty {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	left: 1120px;
+	top: 80px;
+	background: #952121;
+	border: 1px solid #000000;
+	border-radius: 30px;
+	font-family: Prata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+}
+
+
+/*МЕНЮ*/
+nav ul li{
+	display:inline-block;/*Выстраиваем пункты меню в ряд по горизонтали */
+}
+
+nav ul li a{
+	width: 263px;
+	height:70px; 
+	left: 6px;
+	top: 90px;
+	background: #D1A163;
+	border: 1px solid #801C1C;
+	border-radius: 5px;
+    float: left;
+    display: block;
+	display:inline-block; /* Настраиваем оформление пунктов меню */
+	color: #883131;
+    text-decoration: none;
+	text-align: center;		
+	font-family: Prata;
+	font-size: 36px;
+	line-height: 3px;
+}
+
+nav ul li a:hover {
+	background: #DEB37B; /* Меняем фон пункта меню при наведении указателя мыши */
+}
+
+nav ul li ul{
+	display: none; /* Прячем пункты выпадающего блока меню */
+	position: absolute;
+ /* Задаем фон выпадающего блока меню */
+}
+
+nav ul li:hover ul{
+	display:block; 
+	width: 240px;
+	height:50px; 
+	left: 105px;
+	top: 348px;
+
+	/* Отображаем подменю при наведении мыши */
+}
+
+main{
+	height: 100;
+	width: auto;
+	min-height: 650;
+	text-align: center;
+	font-weight: 600;
+	text-decoration: none;
+	font-family: Prata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: #5A0F0F;
+	padding: 15px ;
+
+}
+
+.ru{
+	font-size: 34px;
+	color: #5A0F0F;
+	padding: 20px ;
+	line-height:34px;
+}
+
+.main{
+	width: auto;
+	margin: 0 100%;
+	height: auto;
+	min-height: 100px;
+	}
+
+.prod{
+	min-height: 2000;
+	font-size: 34px;
+	color: #5A0F0F;
+	padding: 20px ;
+	line-height:34px;
+}
+
+.ing{
+	min-height: 1970;
+	font-size: 34px;
+	color: #5A0F0F;
+	padding: 20px ;
+	line-height:34px;
+}
+
+.img img{
+	position: absolute;
+	width: 700px;
+	height: 600px;
+	left: 400px;
+	top: 380px;
+}
+
+.hr_bottom {
+	font-weight: 600;
+	text-decoration: none;
+	font-family: Prata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #5A0F0F;
+	text-align: left;
+	margin-left: 100;
+	margin-right: 100;
+}
+
+.imgs img{
+	position: absolute;
+	width: 200px;
+	height:220px;
+	left: 1000px;
+	top: 1070px;
+
+}
+
+.ko {
+	position: absolute;
+	width: 200px;
+	height:70px; 
+	left: 1000px;
+	top: 1230px;
+	background: rgba(242, 225, 205, 0.58);
+	border:  #F2E1CD;
+	border-radius: 100px;
+    float: left;
+	color: #5A0F0F;
+    text-decoration: none;
+	text-align: center;		
+	font-family: Prata;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 3px;
+}
+
+.yo {
+	
+	position: absolute;
+	width: 200px;
+	height:70px; 
+	left: 1000px;
+	top: 2600px;
+	background: rgba(242, 225, 205, 0.58);
+	border:  #F2E1CD;
+	border-radius: 100px;
+    float: left;
+	color: #5A0F0F;
+    text-decoration: none;
+	text-align: center;		
+	font-family: Prata;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 3px;
+}
+
+.lo {
+	position: absolute;
+	width: 200px;
+	height:70px; 
+	left: 1000px;
+	top: 2580px;
+	background: rgba(242, 225, 205, 0.58);
+	border:  #F2E1CD;
+	border-radius: 100px;
+    float: left;
+	color: #5A0F0F;
+    text-decoration: none;
+	text-align: center;		
+	font-family: Prata;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 3px;
+}

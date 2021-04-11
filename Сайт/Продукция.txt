@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta name="xoma" content="width=device-width, initial-scale=">
+  <link rel="stylesheet" href="style.css">
+<title>Сладкий хомячок</title>
+	</head>
+<body>
+	<div class="body">
+		<header>
+			<div class="logo">
+				<a href="new xoma.html">
+				<img class="logo_img" src="картинки/Логотип.svg">
+				</a>
+			</div>
+		</header>
+  </head>
+			<nav>
+<ul>
+      <li><a href="new xoma.html" > <p>Каталог</p></a>
+	  <ul>
+	  <li><a href="Продукция.html"><p>Продукция</p></a></li>
+	  <li><a href="Ингредиенты.html"><p>Ингредиенты</p></a></li>
+	  <li><a href="Доставка.html"><p>Доставка</p></a></li>
+	  </ul>
+	  </li>
+	<li><a href="О нас.html"><p>О нас</p></a></li>
+      <li><a href="Партнерство.html"><p>Партнерство</p></a></li>
+          <li><a href="Контакты.html"><p>Контакты</p></a></li>
+		 </li> 
+    </ul>
+	</nav>
+			<form>
+      <input  class="ly" type = "text" id ="Input" size="500" placeholder="поиск...">
+      <input class="ty" type = "button" id ="addButton" value="Искать" onClick ='location.href=""'>
+	  
+      </form>
+      <ul id="Искать">
+        </ul>
+		
+		<main class="prod" >
+			<div >
+			<b><p align="left"> Торт "Сникерс"</p></b>	
+			<p align="left"> Торт Сникерс – оригинальный по внешнему виду,<br>по вкусу торт, напоминающий знаменитый<br> шоколадный батончик «сникерс»<br>В наличии и на заказ цена: 1500 ( за 1 кг) </p>
+<img  src="картинки/торт1.png" style="position:absolute;left:870px;top:390px ;" width=300 height=290> <br>
+<b><p align="left"> Торт «Красный бархат»</p></b>
+<p align="left">Славится своим уникальным вкусом и <br>необычной бархатной текстурой.<br>В наличии и на заказ цена: 1200 ( за 1 кг)</p>
+<img  src="картинки/торт2.png" style="position:absolute;left:850px;top:640px ;" width=300 height=330> <br>
+<b><p align="left"> Праздничный торт "Мамочка"</p></b>	
+<p align="left">  Торт на заказ <br>Начинка на любой вкус <br> Цена: 1800 ( за 1 кг)</p>
+<img  src="картинки/торт3.png" style="position:absolute;left:830px;top:900px ;" width=370 height=350> <br>
+<b><p align="left"> Торт "Клубничка"</p></b>	
+<p align="left">  Торт на заказ <br>Нежная начинка с клубникой <br> Цена: 1490 ( за 1 кг)</p>
+<img  src="картинки/торт4.png" style="position:absolute;left:850px;top:1210px ;" width=300 height=290> <br><br>
+<b><p align="left"> Торт "Сладкоежка"</p></b>	
+<p align="left">  Торт на заказ <br> Цена: 1500 ( за 1 кг)</p>
+<img  src="картинки/торт5.png" style="position:absolute;left:850px;top:1450px ;" width=320 height=350> <br><br><br>
+<b><p align="left"> Торт "Космос"</p></b>	
+<p align="left"> Начинка на заказ<br> Цена: 2100 ( за 1 кг)</p>
+<img  src="картинки/торт6.png" style="position:absolute;left:850px;top:1760px ;" width=310 height=300> <br>
+<b><p align="left"> Торт "Глянец"</p></b>	
+<p align="left"> В наличии и на заказ<br> Цена: 1350 ( за 1 кг)</p>
+<img  src="картинки/торт7.png" style="position:absolute;left:850px;top:2060px ;" width=310 height=300> 
+		</main>
+	</div>
+</body>
+<hr class="hr_bottom">
+<footer>
+ <p class="hr_bottom" >Контакты </p>
+		<p class="hr_bottom">+7-(905)-765-57-86 <br> +7-800-222-51-94</p>
+		<p class="hr_bottom">Россия, 156945, г.Кострома <br> Московский проезд д.54</p>
+	<div class="imge_1">
+				<img class="imge_1" align="right" src="картинки/вопрос 1.png" style="position:absolute;left:1000px;top: 2440px;" width=200 height=220>
+				<input  class="yo" type = "text" id ="Input"  placeholder="Задать вопрос" >
+			</div>
+		</footer>
+		
+</html>
+
